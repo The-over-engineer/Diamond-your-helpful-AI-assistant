@@ -21,11 +21,24 @@ This application requires an active local large language model backend instance 
    ```
 
 ## Installation & Activation
-1. Activate your isolated workspace environment bucket:
+
+1. Build and activate your isolated virtual environment sandbox directory:
    ```bash
+   python3 -m venv diamond_env
    source diamond_env/bin/activate
    ```
-2. Launch the graphical interface controller console layout panel:
+
+2. Install the full Python toolkit package set required by Diamond:
+   ```bash
+   pip install streamlit ollama psutil pyttsx3 pyautogui numpy pillow
+   ```
+
+3. Initialize the Streamlit framework developer template skill blueprints:
+   ```bash
+   streamlit skills
+   ```
+
+4. Launch the graphical interface controller console layout panel:
    ```bash
    streamlit run Diamond_github.py
    ```
