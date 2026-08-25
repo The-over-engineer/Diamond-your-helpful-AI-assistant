@@ -1,0 +1,7 @@
+# Block absolutely all files and folders by default
+*
+*/
+
+# Create a special security exception ONLY for your clean portfolio files
+!Diamond_github.py
+!.gitignore
